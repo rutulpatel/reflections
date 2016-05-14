@@ -1,0 +1,8 @@
+diff - to get the list of differences in two given files
+
+git diff - to get differences from two git commits
+
+git log - to get history of commits
+  --grep="" to search/grep git log output
+
+git checkout <commit>  - to change head to point that given commit or instance of code
