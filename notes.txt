@@ -1,8 +1,27 @@
 diff - to get the list of differences in two given files
 
 git diff - to get differences from two git commits
+  - "git diff" runs diff between staging directory and working directory
+  - "git diff --staged" runs diff between staging directory and commit1/last commit of repository
+  - "git diff <comm1> <comm2>" runs diff between commit1 and commit2
 
 git log - to get history of commits
   --grep="" to search/grep git log output
+  -- n -# - shows number of last commit messages
 
-git checkout <commit>  - to change head to point that given commit or instance of code
+git checkout <commit/branch>  - to change head to point that given commit or branch
+
+
+git add <file names w/wo wildcards> - add files to staging location
+
+git status - to check status of files between git working directory and staging location
+
+git branch - to check which is working branch
+
+git branch <name> - to create new branch out of working branch
+
+git commit -m "<message as a command>" - to commit staged directory to the repo
+
+git merge main<master> secondary<coins> - merges code of two branches into one based on last same commit
+
+git show <commit> - shows data of commit
